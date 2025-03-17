@@ -63,6 +63,7 @@ public class StitchVideo extends DriverInitialization{
 		WebElement element = driver.findElement(By.id("q"));
 		element.sendKeys(asset);
 		element.sendKeys(Keys.ENTER);	
-	}
+		driver.close();	
+		}
 
 }
