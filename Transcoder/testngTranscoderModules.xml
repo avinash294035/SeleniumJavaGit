@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="transcoderNew.IdentifySceneChanges"/>
+      <class name="transcoderNew.SlatesAndLogos"/>
+      <class name="transcoderNew.TranscodingModule"/>
+      <class name="transcoderNew.StitchVideo"/>
+      <class name="transcoderNew.Transmuxing"/>
+      <class name="transcoderNew.IdentifyKeyFrames"/>
+      <class name="transcoderNew.MuteAudio"/>
+      <class name="transcoderNew.ExtractAudio"/>
+      <class name="transcoderNew.MuxingAudioandVideo"/>
+      <class name="transcoderNew.ReplaceContentWithAnother"/>
+      <class name="transcoderNew.LogoRemoval"/>
+      <class name="transcoderNew.GenerateThumbnails"/>
+      <class name="transcoderNew.InsertLogo"/>
+      <class name="transcoderNew.ExtractingFrames"/>
+      <class name="transcoderNew.SplitVideo"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

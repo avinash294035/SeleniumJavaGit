@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+		
+      <class name = "transcoderNew.LogoRemoval"/>
+      <class name = "transcoderNew.MuteAudio"/>
+      <class name = "transcoderNew.MuxingAudioandVideo"/>
+      <class name = "transcoderNew.ReplaceContentWithAnother"/>
+      <class name = "transcoderNew.SlatesAndLogos"/>
+      <class name = "transcoderNew.SplitVideo"/>
+      <class name = "transcoderNew.StitchVideo"/>
+      
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
