@@ -31,6 +31,8 @@ public class ExtractAudio extends DriverInitialization{
 		eap.audioVisibilityElementClick();
 		ea.visibiltyOfElement(locator);
 		eap.audioProcessClick();
+		
+		driver.close();
 	}
 	
 	@Test(dataProvider="loginData",dataProviderClass=DataPassing.class)
